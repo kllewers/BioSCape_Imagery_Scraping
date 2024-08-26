@@ -49,7 +49,7 @@ def extract_all_files(folder_name, url="https://popo.jpl.nasa.gov/avng/y23_biosc
 
 
 # URL of the webpage containing the files
-download_folder = 'BioSCape_Imagery'  # Specify your desired download folder here
+#download_folder = 'BioSCape_Imagery'  # Specify your desired download folder here
 #extract_all_files(download_folder)
 
 def download_and_extract_tar_gz(file_url, folder_name, retries=3):
@@ -108,30 +108,30 @@ def extract_specific_files(folder_name, filenames, url="https://popo.jpl.nasa.go
             download_and_extract_tar_gz(full_url, folder_name)
 
 # URL of the webpage containing the files
-download_folder = 'scraped_imagery'  # Specify your desired download folder here
-specific_filenames = [
-    'ang20231109t064755_011_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t064755_012_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t064755_013_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t064755_014_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t064755_015_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t065855_011_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t065855_012_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t065855_013_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t065855_014_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t071216_012_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t071216_013_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t071216_014_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t071216_015_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t072333_009_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t072333_010_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t072333_011_L2A_OE_main_27577724_RFL_ORT.tar.gz',
-    'ang20231109t072333_012_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t072333_013_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t073859_010_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t073859_011_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t073859_012_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
-    'ang20231109t073859_013_L2A_OE_main_27577724_RFL_ORT.tar.gz'
-]
+#download_folder = 'scraped_imagery'  # Specify your desired download folder here
+# specific_filenames = [
+#     'ang20231109t064755_011_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t064755_012_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t064755_013_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t064755_014_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t064755_015_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t065855_011_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t065855_012_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t065855_013_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t065855_014_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t071216_012_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t071216_013_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t071216_014_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t071216_015_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t072333_009_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t072333_010_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t072333_011_L2A_OE_main_27577724_RFL_ORT.tar.gz',
+#     'ang20231109t072333_012_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t072333_013_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t073859_010_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t073859_011_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t073859_012_L2A_OE_main_27577724_RFL_ORT.tar.gz', 
+#     'ang20231109t073859_013_L2A_OE_main_27577724_RFL_ORT.tar.gz'
+# ]
 
-extract_specific_files(download_folder, specific_filenames)
+# extract_specific_files(download_folder, specific_filenames)
